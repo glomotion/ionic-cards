@@ -1,0 +1,288 @@
+
+/*==============================================================================================================
+
+	__________                            _________                        _________ __          _____  _____ 
+	\______   \____    ______ ____       /   _____/____    ______ ______  /   _____//  |_ __ ___/ ____\/ ____\
+	 |    |  _|__  \  /  ___// __ \      \_____  \\__  \  /  ___//  ___/  \_____  \\   __\  |  \   __\\   __\ 
+	 |    |   \/ __ \_\___ \\  ___/      /        \/ __ \_\___ \ \___ \   /        \|  | |  |  /|  |   |  |   
+	 |______  (____  /____  >\___  > /\ /_______  (____  /____  >____  > /_______  /|__| |____/ |__|   |__|   
+			\/     \/     \/     \/  )/         \/     \/     \/     \/          \/                           
+
+
+	Base sass styles: opinionated defaults
+
+
+=================================================================================================================
+
+
+ /*
+ * Import Sass add-ons
+ */
+
+@import "compass";
+@import "normalize";
+@import "animation";
+@import "keyframes";
+
+body {
+	
+}
+
+.scroll, .scroll-view {
+	height: 100%;
+}
+
+.stacker {
+	height: 100%;
+}
+
+.moo {
+	
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	margin: 0 1px 1px 0;
+	background: gold;
+}
+
+/*
+ * Base styles
+ */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;	
+	overflow: hidden;
+}
+
+body {
+	
+	background: darken(silver, 15%);
+	
+	&.pulldown-mode {
+		hgroup {
+			.cancel {
+				display: block;
+			}
+			h1 {
+				display: block;
+			}
+			h2 {
+				&:after {
+					content: "mode" !important;
+				}
+				strong {
+					&:before {
+						content: "Card receival " !important;
+					}
+				}
+			}
+		}
+	}
+	&.animate {
+		.app-container {
+			@include transition-duration( .2s );
+		}
+		#pull-down-area {
+			&:before {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.app-header {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	width: 100%;
+	height: 80px;
+
+	// @include background-image(linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%));
+	@include translate3d( 0,0,0 );
+
+	h1 {
+		text-align: left;
+		margin: 10px 0 0 20px;
+		color: white;
+	}
+}
+
+.app-container {
+	margin: 0;
+
+	@include transition-property( transform );
+	@include transition-duration( 0s );
+	@include transition-timing-function( ease-in-out ); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * App home screen styles...
+ */
+
+
+.drag-functionality-area {
+	
+	position: absolute;
+	width: 100%;
+	min-height: 50%;
+	padding: 25px;
+
+	> * {
+		margin: 0;
+		font-family: 'Vollkorn', serif;
+		font-weight: 400;
+		color: white;
+	}
+
+	.cancel {
+		position: absolute;
+		padding: 0 17px;
+		line-height: 43px;
+		font-size: 15px;
+		font-weight: 600;
+		font-family: "Roboto", san-serif;
+		text-transform: lowercase;
+		cursor: pointer;
+		display: none;
+	}
+	
+	h2 {
+		font-family: "Roboto", san-serif;
+		font-size: 14px;
+		font-weight: 300;
+
+		strong {
+			&:before {
+				content: "Pull down "
+			}
+		}
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 25px;
+		text-align: center;
+		display: none;
+	}
+}
+
+#pull-down-area {
+	
+	top: 0; left: 0;
+	background: lighten(#1c1c1c, 0%);
+	overflow: hidden;
+	@include translate3d( 0,0,0 );
+	
+	&:before {
+		content: "";
+		width: 0;
+		height: 7px;
+		position: absolute;
+		background: lighten(#1c1c1c, 26%);
+		top: 0;
+		left: 0;
+
+		@include transition-property( width, opacity );
+		@include transition-duration( .1s );
+		@include transition-delay( 0 );
+		@include transition-timing-function( ease-in-out ); 
+	}
+
+	.cancel {
+		top: 0; right: 0;
+		background: lighten(#1c1c1c, 7%);
+		color: rgba(255,255,255,.7);
+	}
+	
+	h2 {
+		color: lighten(#1c1c1c, 35%);
+
+		&:after {
+			content: "to receive cards"
+		}
+	}
+	h1 {
+		margin: 36px 0 0 0;
+
+		&:before {
+			content: "";
+			display: inline-block;
+			vertical-align: top;
+			width: 40px;
+			height: 40px;
+			margin: -4px 22px 0 0;
+			box-shadow: inset 0 0 0 5px lighten(#1c1c1c, 15%);
+		}
+	}
+
+	&[data-percent="100"] {
+		&:before {
+			transition-delay: 0, .5s;
+			opacity: 0;
+		}
+		h2 {
+			strong:before {
+				content: "Release ";
+			}
+		}
+	}
+
+	$step: 10;
+	$loops: round(100 / $step);
+	@for $i from 0 through $loops {
+		&[data-percent="#{$i * $step}"] {
+			&:before {
+				width: $i * 10%;
+			}
+		}
+	}
+}
+
+#cards-listing {
+	
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 1px 0 0 0;
+	
+	#scroller {
+		position: absolute;
+		height: 100%;
+	}
+
+	article {
+		position: absolute;
+		top: 0;
+		width: 150px;
+		// height: calc(33.3333% - 1.5px);
+		height: 250px;
+		background: grey;
+		margin: 0 1px 1px 0;
+
+		@include transition-property( transform );
+		@include transition-duration( .4s );
+		@include transition-timing-function( ease-in-out ); 
+		
+		$step: 1;
+		$loops: round(25 / $step);
+		@for $i from 0 through $loops {
+			&:nth-child(#{$i * $step}) {
+				@include transition-duration( .03s * $i );
+			}
+		}
+	}
+}
+
+

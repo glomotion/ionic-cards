@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.throttle.debounce.js"></script>
+    <script src="js/jquery.stacker.js"></script>
+    <script src="js/hammer.js"></script>
+    <script src="js/raf.js"></script>
+    <script src="js/hammer-pulldown.js"></script>
+    <script src="js/iscroll-lite.js"></script>
+    <script src="js/ng-iscroll.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</head>
+
+<body ng-app="starter">
+
+    <pulldown>
+        <hgroup class="drag-functionality-area" id="pull-down-area">
+            <h4 class="cancel">cancel</h4>
+            <h2><strong></strong></h2>
+            <h1>Waiting for a card</h1>
+        </hgroup>
+
+        <ion-content scroll="false" overflow-scroll="false" class="app-container">
+            
+            <div id="cards-listing" ng-iscroll="cards-listing">
+                <div id="scroller">
+                    <stacker>
+                        <div class="stacker">
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                            <article></article>
+                        </div>
+                    </stacker>
+                </div>
+            </div>
+        
+        </ion-content>
+
+    </pulldown>
+
+    
+
+
+</body>
+</html>
