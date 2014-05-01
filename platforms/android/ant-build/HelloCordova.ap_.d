@@ -28,6 +28,7 @@
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/hammer-pulldown.js \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/hammer.js \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/iscroll-lite.js \
+/Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/iscroll.js \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/jquery.min.js \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/jquery.stacker.js \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/assets/www/js/jquery.throttle.debounce.js \

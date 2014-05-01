@@ -519,22 +519,16 @@ body {
     width: 100%; }
 
 /* line 253, ../../scss/styles.scss */
-#cards-listing {
+#scroller {
   height: 100%;
-  position: relative;
-  overflow: hidden;
-  padding: 1px 0 0 0; }
-  /* line 260, ../../scss/styles.scss */
-  #cards-listing #scroller {
-    position: absolute;
-    height: 100%; }
-  /* line 265, ../../scss/styles.scss */
-  #cards-listing article {
+  position: relative; }
+  /* line 258, ../../scss/styles.scss */
+  #scroller article {
     position: absolute;
     top: 0;
     width: 150px;
     height: 250px;
-    background: grey;
+    background: gold;
     margin: 0 1px 1px 0;
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
@@ -545,133 +539,133 @@ body {
     -webkit-transition-timing-function: ease-in-out;
     -moz-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(0) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(0) {
       -webkit-transition-duration: 0s;
       -moz-transition-duration: 0s;
       transition-duration: 0s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(1) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(1) {
       -webkit-transition-duration: 0.03s;
       -moz-transition-duration: 0.03s;
       transition-duration: 0.03s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(2) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(2) {
       -webkit-transition-duration: 0.06s;
       -moz-transition-duration: 0.06s;
       transition-duration: 0.06s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(3) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(3) {
       -webkit-transition-duration: 0.09s;
       -moz-transition-duration: 0.09s;
       transition-duration: 0.09s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(4) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(4) {
       -webkit-transition-duration: 0.12s;
       -moz-transition-duration: 0.12s;
       transition-duration: 0.12s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(5) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(5) {
       -webkit-transition-duration: 0.15s;
       -moz-transition-duration: 0.15s;
       transition-duration: 0.15s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(6) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(6) {
       -webkit-transition-duration: 0.18s;
       -moz-transition-duration: 0.18s;
       transition-duration: 0.18s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(7) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(7) {
       -webkit-transition-duration: 0.21s;
       -moz-transition-duration: 0.21s;
       transition-duration: 0.21s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(8) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(8) {
       -webkit-transition-duration: 0.24s;
       -moz-transition-duration: 0.24s;
       transition-duration: 0.24s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(9) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(9) {
       -webkit-transition-duration: 0.27s;
       -moz-transition-duration: 0.27s;
       transition-duration: 0.27s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(10) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(10) {
       -webkit-transition-duration: 0.3s;
       -moz-transition-duration: 0.3s;
       transition-duration: 0.3s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(11) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(11) {
       -webkit-transition-duration: 0.33s;
       -moz-transition-duration: 0.33s;
       transition-duration: 0.33s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(12) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(12) {
       -webkit-transition-duration: 0.36s;
       -moz-transition-duration: 0.36s;
       transition-duration: 0.36s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(13) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(13) {
       -webkit-transition-duration: 0.39s;
       -moz-transition-duration: 0.39s;
       transition-duration: 0.39s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(14) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(14) {
       -webkit-transition-duration: 0.42s;
       -moz-transition-duration: 0.42s;
       transition-duration: 0.42s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(15) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(15) {
       -webkit-transition-duration: 0.45s;
       -moz-transition-duration: 0.45s;
       transition-duration: 0.45s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(16) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(16) {
       -webkit-transition-duration: 0.48s;
       -moz-transition-duration: 0.48s;
       transition-duration: 0.48s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(17) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(17) {
       -webkit-transition-duration: 0.51s;
       -moz-transition-duration: 0.51s;
       transition-duration: 0.51s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(18) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(18) {
       -webkit-transition-duration: 0.54s;
       -moz-transition-duration: 0.54s;
       transition-duration: 0.54s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(19) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(19) {
       -webkit-transition-duration: 0.57s;
       -moz-transition-duration: 0.57s;
       transition-duration: 0.57s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(20) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(20) {
       -webkit-transition-duration: 0.6s;
       -moz-transition-duration: 0.6s;
       transition-duration: 0.6s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(21) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(21) {
       -webkit-transition-duration: 0.63s;
       -moz-transition-duration: 0.63s;
       transition-duration: 0.63s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(22) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(22) {
       -webkit-transition-duration: 0.66s;
       -moz-transition-duration: 0.66s;
       transition-duration: 0.66s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(23) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(23) {
       -webkit-transition-duration: 0.69s;
       -moz-transition-duration: 0.69s;
       transition-duration: 0.69s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(24) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(24) {
       -webkit-transition-duration: 0.72s;
       -moz-transition-duration: 0.72s;
       transition-duration: 0.72s; }
-    /* line 281, ../../scss/styles.scss */
-    #cards-listing article:nth-child(25) {
+    /* line 274, ../../scss/styles.scss */
+    #scroller article:nth-child(25) {
       -webkit-transition-duration: 0.75s;
       -moz-transition-duration: 0.75s;
       transition-duration: 0.75s; }

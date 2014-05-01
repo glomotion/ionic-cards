@@ -250,17 +250,10 @@ body {
 	}
 }
 
-#cards-listing {
+#scroller {
 	
 	height: 100%;
 	position: relative;
-	overflow: hidden;
-	padding: 1px 0 0 0;
-	
-	#scroller {
-		position: absolute;
-		height: 100%;
-	}
 
 	article {
 		position: absolute;
@@ -268,7 +261,7 @@ body {
 		width: 150px;
 		// height: calc(33.3333% - 1.5px);
 		height: 250px;
-		background: grey;
+		background: gold;
 		margin: 0 1px 1px 0;
 
 		@include transition-property( transform );
