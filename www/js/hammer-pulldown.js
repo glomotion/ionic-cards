@@ -90,7 +90,7 @@ function PullDown(element, pullDownElement) {
                         }
                     } else {
                         // we're not in 'pull-down' mode, so animate the distance left until the 'breakpoint'
-                        var percentComplete = (100 / BREAKPOINT) * translateAmount;
+                        var percentComplete = (100 / BREAKPOINT) * translateAmount - 4;
                         if (percentComplete <= 101 && percentComplete > 0) {
                             // animate thru the percentage levels, in increments of 10
                             $pulldown.attr('data-percent',Math.round(percentComplete / 10) * 10);
