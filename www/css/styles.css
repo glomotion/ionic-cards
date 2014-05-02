@@ -410,8 +410,8 @@ body {
   /* line 157, ../../scss/styles.scss */
   .drag-functionality-area .cancel {
     position: absolute;
-    padding: 0 17px;
-    line-height: 43px;
+    padding: 0 15px;
+    line-height: 35px;
     font-size: 15px;
     font-weight: 600;
     font-family: "Roboto", san-serif;
@@ -465,8 +465,8 @@ body {
     transition-timing-function: ease-in-out; }
   /* line 209, ../../scss/styles.scss */
   #pull-down-area .cancel {
-    top: 15px;
-    right: 15px;
+    top: 13px;
+    right: 13px;
     background: #2e2e2e;
     color: rgba(255, 255, 255, 0.7); }
   /* line 215, ../../scss/styles.scss */
@@ -477,7 +477,7 @@ body {
       content: "to receive cards"; }
   /* line 222, ../../scss/styles.scss */
   #pull-down-area h1 {
-    margin: 50px 0 0 0; }
+    margin: 56px 0 0 0; }
     /* line 225, ../../scss/styles.scss */
     #pull-down-area h1:before {
       content: "";

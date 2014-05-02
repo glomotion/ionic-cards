@@ -410,8 +410,8 @@ body {
   /* line 157, ../../scss/styles.scss */
   .drag-functionality-area .cancel {
     position: absolute;
-    padding: 0 17px;
-    line-height: 43px;
+    padding: 0 15px;
+    line-height: 35px;
     font-size: 15px;
     font-weight: 600;
     font-family: "Roboto", san-serif;
@@ -421,19 +421,18 @@ body {
   /* line 169, ../../scss/styles.scss */
   .drag-functionality-area h2 {
     font-family: "Roboto", san-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300; }
     /* line 175, ../../scss/styles.scss */
     .drag-functionality-area h2 strong:before {
       content: "Pull down "; }
   /* line 180, ../../scss/styles.scss */
   .drag-functionality-area h1 {
-    font-weight: 700;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     display: none; }
 
-/* line 188, ../../scss/styles.scss */
+/* line 187, ../../scss/styles.scss */
 #pull-down-area {
   top: 0;
   left: 0;
@@ -443,7 +442,7 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-  /* line 195, ../../scss/styles.scss */
+  /* line 194, ../../scss/styles.scss */
   #pull-down-area:before {
     content: "";
     width: 0;
@@ -464,30 +463,31 @@ body {
     -webkit-transition-timing-function: ease-in-out;
     -moz-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out; }
-  /* line 210, ../../scss/styles.scss */
+  /* line 209, ../../scss/styles.scss */
   #pull-down-area .cancel {
-    top: 0;
-    right: 0;
+    top: 13px;
+    right: 13px;
     background: #2e2e2e;
     color: rgba(255, 255, 255, 0.7); }
-  /* line 216, ../../scss/styles.scss */
+  /* line 215, ../../scss/styles.scss */
   #pull-down-area h2 {
     color: #757575; }
-    /* line 219, ../../scss/styles.scss */
+    /* line 218, ../../scss/styles.scss */
     #pull-down-area h2:after {
       content: "to receive cards"; }
-  /* line 223, ../../scss/styles.scss */
+  /* line 222, ../../scss/styles.scss */
   #pull-down-area h1 {
-    margin: 36px 0 0 0; }
-    /* line 226, ../../scss/styles.scss */
+    margin: 56px 0 0 0; }
+    /* line 225, ../../scss/styles.scss */
     #pull-down-area h1:before {
       content: "";
       display: inline-block;
       vertical-align: top;
       width: 40px;
       height: 40px;
-      margin: -4px 22px 0 0;
-      box-shadow: inset 0 0 0 5px #424242; }
+      border-radius: 20px;
+      margin: -9px 28px 0 0;
+      box-shadow: inset 0 0 0 4px white; }
   /* line 238, ../../scss/styles.scss */
   #pull-down-area[data-percent="100"]:before {
     transition-delay: 0, .5s;
