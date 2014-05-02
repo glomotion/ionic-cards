@@ -1,4 +1,4 @@
-/Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/HelloCordova.ap_ \
+/Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/ionicCards.ap_ \
  : /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/res/drawable/icon.png \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/res/drawable-hdpi/icon.png \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/res/drawable-ldpi/icon.png \

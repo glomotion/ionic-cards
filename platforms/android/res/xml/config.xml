@@ -7,7 +7,7 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>test-ionic-app</name>
+    <name>ionic-cards</name>
     <description>
         An Ionic Framework and Cordova project.
     </description>

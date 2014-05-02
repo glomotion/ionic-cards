@@ -54,7 +54,7 @@
                 top += height;
 
                 if (index === total - 1) {
-                    // this is the last one
+                    // this is the last block to be stacked
                     containerWidth = (columns * width) - gutter; // minus the gutter width from the last column
                     $container.width(containerWidth);
                 }

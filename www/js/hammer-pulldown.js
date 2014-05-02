@@ -18,19 +18,14 @@ function PullDown(element, pullDownElement) {
     var THROTTLE = 50;
 
     // create the JQ dom objects that we'll be operating on
-    var $element = $(element);
-    var $pulldown = $(pullDownElement);
-    var $container = $(element).closest('body');
+    var $element = element;
+    var $pulldown = pullDownElement;
+    var $container = element.closest('body');
     
     /**
      * initialise
      */
     this.init = function() {
-
-        // a simple cancel button
-        // $('.cancel').hammer().on('tap', function() {
-        //     self.resetMode();
-        // });
     };
 
     this.vertPullHandler = function(ev) {
@@ -157,7 +152,11 @@ function PullDown(element, pullDownElement) {
         }, TIMEOUT_VAL);
     };
 
-    new Hammer($element[0], { dragLockToAxis: true }).on("touch dragdown dragup release", self.vertPullHandler);
+    var pulldownListener = new Hammer($element[0], { dragLockToAxis: true }).on("touch dragdown dragup release", self.vertPullHandler);
+    // a simple cancel button
+    var cancelButton = new Hammer($pulldown.find('.cancel')[0]).on("tap", function() {
+        self.resetMode();
+    });
 }
 
 
