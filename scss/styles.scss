@@ -168,7 +168,7 @@ body {
 	
 	h2 {
 		font-family: "Roboto", san-serif;
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 300;
 
 		strong {
@@ -178,8 +178,7 @@ body {
 		}
 	}
 	h1 {
-		font-weight: 700;
-		font-size: 25px;
+		font-size: 24px;
 		text-align: center;
 		display: none;
 	}
@@ -208,7 +207,7 @@ body {
 	}
 
 	.cancel {
-		top: 0; right: 0;
+		top: 15px; right: 15px;
 		background: lighten(#1c1c1c, 7%);
 		color: rgba(255,255,255,.7);
 	}
@@ -221,7 +220,7 @@ body {
 		}
 	}
 	h1 {
-		margin: 36px 0 0 0;
+		margin: 50px 0 0 0;
 
 		&:before {
 			content: "";
@@ -229,8 +228,9 @@ body {
 			vertical-align: top;
 			width: 40px;
 			height: 40px;
-			margin: -4px 22px 0 0;
-			box-shadow: inset 0 0 0 5px lighten(#1c1c1c, 15%);
+			border-radius: 20px;
+			margin: -9px 28px 0 0;
+			box-shadow: inset 0 0 0 4px white;
 		}
 	}
 

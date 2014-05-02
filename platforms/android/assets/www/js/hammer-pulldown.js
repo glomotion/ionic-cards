@@ -12,8 +12,8 @@ function PullDown(element, pullDownElement) {
 
     // establish some fixed variables (basic settings)
     var TIMEOUT_VAL = 220;
-    var BREAKPOINT = 70;
-    var LOCK_OFFSET = 150;
+    var BREAKPOINT = 75;
+    var LOCK_OFFSET = 165;
     var TRANSLATE_RATIO = .4;
     var THROTTLE = 50;
 
