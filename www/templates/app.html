@@ -1,0 +1,30 @@
+<!-- 
+
+    The setup and init of all "tabs" in the app 
+    + any content that needs to span across the whole app 
+
+-->
+
+<div class="moo">
+    
+    this is some generic content that goes on all pages...
+    
+</div>
+
+
+<ion-tabs class="">
+
+    <!-- Home Tab -->
+    <!-- (contains all cards, and single card displays) -->
+    <ion-tab title="Home" href="#/app/cards">
+        <ion-nav-view name="app-cards"></ion-nav-view>
+    </ion-tab>
+
+    <!-- About Tab -->
+    <ion-tab title="About" href="#/app/about">
+        <ion-nav-view name="app-about"></ion-nav-view>
+    </ion-tab>
+
+
+</ion-tabs>
+

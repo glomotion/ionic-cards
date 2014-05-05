@@ -1,0 +1,36 @@
+<!-- 
+
+    This view represents the nuts and bolts of the cards app. 
+    It contains two states, first up is the initial cards listing view, 
+    then follows a single card/details view 
+
+-->
+
+<ion-view title="Cards" class="home">
+    <pulldown>
+        <hgroup class="drag-functionality-area" id="pull-down-area">
+            <h4 class="cancel">cancel</h4>
+            <h2><strong></strong></h2>
+            <h1>Waiting for a card</h1>
+        </hgroup>
+        <div class="app-container">
+        <header class="app-header">
+            <a id="menu-btn" href="#">menu-btn</a>
+            <h1>collector cards</h1>
+        </header>
+        <ion-scroll direction="x" scrollbar-x="false" >
+            <div id="scroller">
+                <stacker>
+                    <div class="stacker-cntnr">
+                        <article style="background-image: url({{card.imgUrl}})" ng-repeat="card in cards" on-finish-render>
+                            <h3>{{card.title}}</h3>
+                        </article>
+                    </div>
+                </stacker>
+            </div>
+        </ion-scroll>
+        </div>
+
+    </pulldown>
+</ion-view>
+

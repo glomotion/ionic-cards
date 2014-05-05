@@ -14,6 +14,38 @@
 
 =================================================================================================================
 
+/*
+ * Settings for compass vendor prefixing.
+ */
+
+$experimental-support-for-mozilla : false;
+$experimental-support-for-webkit : true;
+$support-for-original-webkit-gradients : true;
+$experimental-support-for-opera : false;
+$experimental-support-for-microsoft : false;
+$experimental-support-for-khtml : false;
+
+
+/*
+ * Define Global SASS variables.
+ */
+
+$light-off-black: #2f2f2f;
+$off-black: #262626;
+$off-white: #ebebeb;
+$nice-green: #7cb313;
+
+$google-green: #0F9D58;
+$google-red: #DB4437;
+$google-yellow: #ffc001;
+$google-blue: #4285F4;
+
+$mid-grey: #676767;
+
+$app-dock-height: 55px;
+$window-title-bar-height: 52px;
+$left-app-menu-width: 190px;
+
 
  /*
  * Import Sass add-ons
@@ -24,17 +56,38 @@
 @import "animation";
 @import "keyframes";
 
-body {
-	
-}
+
+
+/*
+ * Over-ride some stupid ionic styles...
+ */
+
 
 .scroll, .scroll-view {
 	height: 100%;
 }
 
+
+// Available fonts + weights:
+// Roboto:
+// 	300italic,
+// 	400italic,
+// 	400,
+// 	700,
+// 	800,
+// 	600,
+// 	300
+// Vollkorn:
+// 	400,
+// 	700
+
 /*
  * Base styles
  */
+
+body {
+	
+}
 
 html, body {
 	height: 100%;
@@ -74,6 +127,7 @@ body {
 			}
 		}
 	}
+	
 	&.animate {
 		.app-container {
 			@include transition-duration( .2s );
@@ -187,7 +241,7 @@ body {
 #pull-down-area {
 	
 	top: 0; left: 0;
-	background: lighten(#1c1c1c, 0%);
+	background: $off-black;
 	overflow: hidden;
 	@include translate3d( 0,0,0 );
 	
@@ -196,7 +250,7 @@ body {
 		width: 0;
 		height: 7px;
 		position: absolute;
-		background: lighten(#1c1c1c, 26%);
+		background: darken($off-white, 30%);
 		top: 0;
 		left: 0;
 
@@ -213,7 +267,7 @@ body {
 	}
 	
 	h2 {
-		color: lighten(#1c1c1c, 35%);
+		color: darken($off-white, 40%);
 
 		&:after {
 			content: "to receive cards"
@@ -262,26 +316,66 @@ body {
 	height: 100%;
 	position: relative;
 
+	.stacker-cntnr {
+		height: 100%;
+	}
+
 	article {
 		position: absolute;
 		top: 0;
-		width: 150px;
-		height: calc(33.3333% - 1.5px);
+		width: 140px;
 		background: white;
-		margin: 0 1px 1px 0;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: 0;
+		overflow: hidden;
+		border-top: 1px solid $off-black;
+		border-right: 1px solid $off-black;
+		
+		// @TODO:
+		// Android pre 4.4   webview doesn't support this property...
+		// height: 200px;
+		height: calc(33.3333% - .2px);
 
 		@include transition-property( transform );
 		@include transition-duration( .4s );
+		@include transition-delay( 1s );
 		@include transition-timing-function( ease-in-out ); 
 		
 		$step: 1;
-		$loops: round(25 / $step);
+		$loops: round(10 / $step);
 		@for $i from 0 through $loops {
 			&:nth-child(#{$i * $step}) {
+				z-index: 2;
+				@include transition-delay( 0 );
 				@include transition-duration( .03s * $i );
 			}
 		}
+
+		h3 {
+			position: absolute;
+			bottom: 0;
+			left: 0; right: 0;
+			margin: 0;
+			padding: 25px 15px 15px;
+			color: white;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 1.1;
+			text-shadow: 0 1px 0 rgba(0,0,0,.1);
+
+			@include background-image(linear-gradient(bottom, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 100%));
+		}
 	}
 }
+
+
+
+
+
+
+
+
 
 

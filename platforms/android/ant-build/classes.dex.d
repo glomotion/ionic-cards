@@ -1,6 +1,6 @@
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes.dex : \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/BuildConfig.class \
-/Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/HelloCordova.class \
+/Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/ioniccards.class \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/R$attr.class \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/R$drawable.class \
 /Users/timpaul/Desktop/GIT-Repos/ionic-cards/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \

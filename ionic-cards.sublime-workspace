@@ -1,0 +1,1239 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"off",
+				"off-white"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"card",
+				"card-details"
+			],
+			[
+				"pull",
+				"pull-down-area"
+			],
+			[
+				"contain",
+				"containerWidth"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"screen",
+				"screen-container"
+			],
+			[
+				"perc",
+				"percentComplete"
+			],
+			[
+				"transla",
+				"translateAmount"
+			],
+			[
+				"reset",
+				"resetModes"
+			],
+			[
+				"read",
+				"readWrite"
+			],
+			[
+				"ali",
+				"alice-in-wondercons"
+			],
+			[
+				"option",
+				"optionalMessage"
+			],
+			[
+				"status",
+				"statusWidth"
+			],
+			[
+				"dial",
+				"dialogue-bg"
+			],
+			[
+				"dia",
+				"dialogue-bg"
+			],
+			[
+				"goog",
+				"google-blue"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"old",
+				"oldWidth"
+			],
+			[
+				"mid",
+				"mid-grey"
+			],
+			[
+				"gr",
+				"greyscale-none"
+			],
+			[
+				"googl",
+				"google-yellow"
+			],
+			[
+				"sele",
+				"selectedFile"
+			],
+			[
+				"win",
+				"window-title-bar-height"
+			],
+			[
+				"file-",
+				"file-details-panel-width"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"sys",
+				"syssettings"
+			],
+			[
+				"ac",
+				"activeIndex"
+			],
+			[
+				"alt",
+				"altTabsArr"
+			],
+			[
+				"this",
+				"thisClass"
+			],
+			[
+				"al",
+				"alt-tab-btn-width"
+			],
+			[
+				"out",
+				"outputMode"
+			],
+			[
+				"appun",
+				"appunlock"
+			],
+			[
+				"gree",
+				"dark-green"
+			],
+			[
+				"back",
+				"backColor"
+			],
+			[
+				"sl",
+				"slight-vert-offset"
+			],
+			[
+				"boot",
+				"boot-logo-size"
+			],
+			[
+				"boo",
+				"boot-logo-size"
+			],
+			[
+				"rotate",
+				"rotateplane"
+			],
+			[
+				"level",
+				"level-eq-block-size"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"click",
+				"clickedTarget"
+			],
+			[
+				"setting",
+				"settings-bg"
+			],
+			[
+				"current",
+				"currentSlide"
+			],
+			[
+				"curre",
+				"currentSlide"
+			],
+			[
+				"light",
+				"light-off-black"
+			],
+			[
+				"app",
+				"app-dock-height"
+			],
+			[
+				"apps",
+				"apps-menu-btn"
+			],
+			[
+				"off-",
+				"light-off-black"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"google",
+				"google-blue"
+			],
+			[
+				"do",
+				"app-dock-height"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"app-",
+				"app-dock-height"
+			],
+			[
+				"vertic",
+				"vertical-align"
+			],
+			[
+				"GOOGLE",
+				"google-blue"
+			],
+			[
+				"goo",
+				"google-green"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"overflow-",
+				"overflow-y"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"comma",
+				"command-entry"
+			],
+			[
+				"data",
+				"data-display-height"
+			],
+			[
+				"terminal",
+				"terminal-wrapper"
+			],
+			[
+				"comm",
+				"commandLogLines"
+			],
+			[
+				"run",
+				"runModeSwitchToggle"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fish",
+				"fishfoodBanner"
+			],
+			[
+				"scro",
+				"scrollY"
+			],
+			[
+				"main",
+				"main-content"
+			],
+			[
+				"dark",
+				"dark-navy"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"minima",
+				"minimalMode"
+			],
+			[
+				"act",
+				"active-script"
+			],
+			[
+				"nth",
+				"nth-of-type"
+			],
+			[
+				"min",
+				"minimised-mode"
+			],
+			[
+				"fancy",
+				"fancyInput"
+			],
+			[
+				"mini",
+				"minimised-terminal-height"
+			],
+			[
+				"command",
+				"commandVal"
+			],
+			[
+				"sta",
+				"status-width"
+			],
+			[
+				"na",
+				"dark-navy"
+			],
+			[
+				"comman",
+				"command-prompt-height"
+			],
+			[
+				"begin",
+				"begin-btn-dia"
+			],
+			[
+				"he",
+				"header-height"
+			],
+			[
+				"begin-btn",
+				"begin-btn-square"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ma",
+				"make-your-own"
+			],
+			[
+				"appmenu",
+				"appmenu-open"
+			],
+			[
+				"em",
+				"empty-loading"
+			],
+			[
+				"twitt",
+				"filter-twitter"
+			],
+			[
+				"appme",
+				"appmenu-open"
+			],
+			[
+				"refine",
+				"refine-filters"
+			],
+			[
+				"intro",
+				"introModeIsOn"
+			],
+			[
+				"into",
+				"introElement"
+			],
+			[
+				"st",
+				"storedScrollY"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"filt",
+				"filter-twitter"
+			],
+			[
+				"toggle",
+				"appMenuToggle"
+			],
+			[
+				"user",
+				"userMenuToggle"
+			],
+			[
+				"mason",
+				"masonryContainer"
+			],
+			[
+				"iso",
+				"isotopeSelector"
+			],
+			[
+				"selec",
+				"selector"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"embed",
+				"embedURL"
+			],
+			[
+				"upda",
+				"updateMasonry"
+			],
+			[
+				"mas",
+				"masonryContainer"
+			],
+			[
+				"fil",
+				"filter-gplus"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"sel",
+				"selectedType"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"twi",
+				"filter-twitter"
+			],
+			[
+				"filter",
+				"filter-linkedin"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"pointer",
+				"pointer-events"
+			],
+			[
+				"top",
+				"sel-offset-top"
+			],
+			[
+				"ver",
+				"vert-sel-offset-top"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"vert",
+				"vertical-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 6363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/app.html",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/cards.html",
+			"settings":
+			{
+				"buffer_size": 1147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/card.html",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/entry.html",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/app.js",
+			"settings":
+			{
+				"buffer_size": 4431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/services.js",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/jquery.stacker.js",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/timpaul/Desktop/GIT-Repos/ionic-cards/www/templates/app.html",
+		"/Users/timpaul/Desktop/GIT-Repos/ionic-cards/www/js/controllers.js",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/www/js/jquery.stacker.js",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/js/jquery.stacker.js",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/www/templates/menu.html",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/scss/ionic.app.scss",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/ballet-cards.sublime-project",
+		"/Users/timpaul/Desktop/GIT-Repos/test-ionic/www/templates/card.html",
+		"/Users/timpaul/Desktop/GIT-Repos/test-ionic/www/templates/menu.html",
+		"/Users/timpaul/Desktop/GIT-Repos/cl-ballet-cards-app-ui/css/app.css",
+		"/Users/timpaul/Desktop/GIT-Repos/rh-prototype/core/static/scss/app.scss",
+		"/Users/timpaul/Desktop/GIT-Repos/baseball-cards/www/js/Baseball.UI.js",
+		"/Users/timpaul/Desktop/GIT-Repos/baseball-cards/www/index.html",
+		"/Users/timpaul/Desktop/GIT-Repos/baseball-cards/README.md",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/app.js",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/app.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/pull-down.css",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/pull-up.js",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/pull-up.scss",
+		"/Users/timpaul/Desktop/GIT Repos/pull-refresh-demo/pull-up.html",
+		"/Users/timpaul/Desktop/pulltorefresh-master/default.html",
+		"/Users/timpaul/Desktop/pull-to-refresh-master/index.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/svg/desaturate.svg",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/app.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_filepicker.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/confirm.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/filepicker.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/os.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/base.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/syssettings.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_syssettings.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/main.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/alert.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/window.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_confirm.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/terminal.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_alert.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/ace.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/editor.js",
+		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/index.html",
+		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/static/js/angular.js",
+		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/static/js/angular.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/static/js/controllers.js",
+		"/Users/timpaul/Desktop/photo-sphere-viewer/photo-sphere-viewer.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/_apps.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/readme.md",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/signin.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/google_signin.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/search.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_files/readme__dot__txt.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/messages/_boot_message.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/gateway/console.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/console-new.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/console.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_console-new.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_console.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/jquery.simpleTerminal.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/gateway/console_new.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_terminal.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/console_old.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/base_gateway.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/urls.py",
+		"/Users/timpaul/Desktop/GIT Repos/cl-speakeasy/cl-speakeasy.sublime-project",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_messenger.html",
+		"/Users/timpaul/Desktop/GIT Repos/wwf-earth-hour/assets/css/style.css",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/views.py",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/challenge.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_coderun.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_mplayer.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_ace.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/coderun.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_file_picker.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/jquery.float-thead.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/mplayer.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/app.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_system_settings.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_unlock.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/os_apps/_editor.html",
+		"/Users/timpaul/Desktop/moo.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/urls.py",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os/apps/appunlock.js",
+		"/Users/timpaul/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/timpaul/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/jquery.hammer.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/_flow-player.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_trippy.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_pretty.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/gateway/starwars.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway/starwars.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_starwars.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/fancyInput.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/gateway_console.scss.css",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/gateway.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/templates/gateway.html",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/css/gateway.css",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/app.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/src-min/theme-rabbithole-light.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/src-min/theme-rabbithole.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/src-min/theme-xcode.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/src-min/theme-rabbithole-dark.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/src-min/ace.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/ace-builds/textarea/src/theme-xcode.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/_keyframes.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/app-tim.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/scss/_jquery-terminal.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/terminal.js",
+		"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/jquery-ui-1.10.3.custom.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/static/scss/_jqueryui.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/static/js/jquery-2.0.3.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/static/js/jquery-ui-1.10.4.custom.min.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/static/css/app.css",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/static/scss/_normalize.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rabbit-hole-os-ui/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/typer_ui-cutup/index.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/typer_ui-cutup/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/index.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/scss/_animation.scss",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/templates/base.html",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/fancyInput.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/templates/index.html",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/templates/_feedback.html",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/challenge.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/templates/_submit_challenge.html",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/ace-builds/src/theme-kuroir.js",
+		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/ace-builds/src-min/theme-rabbithole.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js/os",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/static/js",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/",
+			"/Users/timpaul/Desktop/GIT Repos/rh-prototype/core/static/js",
+			"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{ti",
+			"home",
+			"Home",
+			"home",
+			"friend",
+			"tab",
+			"stream",
+			"Stream",
+			"entry",
+			"Entry",
+			"stream",
+			"h2",
+			"starter",
+			"home",
+			"/tab",
+			"tab",
+			"Tab",
+			"tab",
+			"Tab",
+			"tab",
+			"search",
+			".stacker",
+			"http://lorempixel.com/170/260",
+			"170/250",
+			"container",
+			"dropDown",
+			"gradie",
+			"ion-refresher",
+			"playlist",
+			"playlists",
+			"Playlists",
+			"playlists",
+			"rAF",
+			"'return",
+			"return",
+			"'return'",
+			"return",
+			"div",
+			"var ",
+			"rec",
+			"matrixToArray",
+			"bottom",
+			"#carousel",
+			"hitzone",
+			"hit",
+			"app-container",
+			"#hitzone",
+			"element",
+			"$container",
+			"$element",
+			"self",
+			"$hitzone",
+			"$body",
+			"and",
+			" = ",
+			"var ",
+			"\\",
+			"dummy",
+			"self",
+			"pullDownMode",
+			"resetModes",
+			"$hitzone.offset().top",
+			"handleHammerCarousel",
+			"handleHammer",
+			"dodgerblue",
+			"-webkit-",
+			"25px",
+			"20px",
+			"e",
+			"resetMode",
+			"70",
+			"pullUpModeSwitch",
+			"pullDownModeSwitch",
+			"gold",
+			"dodgerblue",
+			"70",
+			"pullDownModeSwitch",
+			"80",
+			"150",
+			"200",
+			"swipe",
+			"div",
+			"z",
+			".hitarea",
+			"imagesL",
+			".mauve",
+			"pointer",
+			": ? ",
+			"renderDetails",
+			"syst",
+			"_this",
+			"this.bgImages",
+			"imagesLoaded()",
+			"imagesLoaded",
+			"setImage",
+			"os",
+			"open:",
+			"syssettings",
+			"+ i",
+			"background",
+			"background-image",
+			"opacity",
+			"rotate-forever",
+			"this.elementId",
+			"_this.bgImages",
+			"&:before {",
+			"app-dock-icon",
+			"imagesLo",
+			"app-dock-icon",
+			"app-doc",
+			".svg)",
+			".svg",
+			"#hidden-window-templates",
+			"hidden-window-templates",
+			"display-box",
+			"alert",
+			"start",
+			"cancel",
+			"open:",
+			"callBack",
+			"open:",
+			"confirm",
+			"confirm(",
+			"openStartup",
+			"start",
+			"confirm",
+			"boot",
+			"opacity"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/styles.scss",
+					"settings":
+					{
+						"buffer_size": 6363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2448,
+								2448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1092.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/index.html",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1239,
+								1239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/templates/app.html",
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/templates/cards.html",
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/card.html",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/templates/entry.html",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/app.js",
+					"settings":
+					{
+						"buffer_size": 4431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1464,
+								1464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 588.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/services.js",
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/js/jquery.stacker.js",
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true
+}

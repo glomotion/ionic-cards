@@ -1,4 +1,4 @@
- /*==============================================================================================================
+/*==============================================================================================================
 
 	__________                            _________                        _________ __          _____  _____ 
 	\______   \____    ______ ____       /   _____/____    ______ ______  /   _____//  |_ __ ___/ ____\/ ____\
@@ -13,10 +13,15 @@
 
 =================================================================================================================
 
-
- /*
- * Import Sass add-ons
+/*
+ * Settings for compass vendor prefixing.
  */
+/*
+ * Define Global SASS variables.
+ */
+/*
+* Import Sass add-ons
+*/
 /* line 27, ../../scss/_normalize.scss */
 article,
 aside,
@@ -301,14 +306,17 @@ table {
     background-color: #ccffff;
   } 
 }*/
-/* line 31, ../../scss/styles.scss */
+/*
+ * Over-ride some stupid ionic styles...
+ */
+/* line 66, ../../scss/styles.scss */
 .scroll, .scroll-view {
   height: 100%; }
 
 /*
  * Base styles
  */
-/* line 39, ../../scss/styles.scss */
+/* line 92, ../../scss/styles.scss */
 html, body {
   height: 100%;
   margin: 0;
@@ -318,35 +326,34 @@ html, body {
   font-weight: 300;
   font-size: 16px; }
 
-/* line 49, ../../scss/styles.scss */
+/* line 102, ../../scss/styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
-/* line 53, ../../scss/styles.scss */
+/* line 106, ../../scss/styles.scss */
 body {
   background: #9a9a9a; }
-  /* line 59, ../../scss/styles.scss */
+  /* line 112, ../../scss/styles.scss */
   body.pulldown-mode hgroup .cancel {
     display: block; }
-  /* line 62, ../../scss/styles.scss */
+  /* line 115, ../../scss/styles.scss */
   body.pulldown-mode hgroup h1 {
     display: block; }
-  /* line 66, ../../scss/styles.scss */
+  /* line 119, ../../scss/styles.scss */
   body.pulldown-mode hgroup h2:after {
     content: "mode" !important; }
-  /* line 70, ../../scss/styles.scss */
+  /* line 123, ../../scss/styles.scss */
   body.pulldown-mode hgroup h2 strong:before {
     content: "Card receive " !important; }
-  /* line 78, ../../scss/styles.scss */
+  /* line 132, ../../scss/styles.scss */
   body.animate .app-container {
     -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
     transition-duration: 0.2s; }
-  /* line 82, ../../scss/styles.scss */
+  /* line 136, ../../scss/styles.scss */
   body.animate #pull-down-area:before {
     opacity: 0; }
 
-/* line 89, ../../scss/styles.scss */
+/* line 143, ../../scss/styles.scss */
 .app-header {
   position: absolute;
   z-index: 5;
@@ -354,21 +361,19 @@ body {
   width: 100%;
   height: 55px;
   white-space: nowrap;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.34)), color-stop(95%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0) 95%);
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0) 95%);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0) 95%);
   -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-  /* line 100, ../../scss/styles.scss */
+  /* line 154, ../../scss/styles.scss */
   .app-header > * {
     vertical-align: middle;
     display: inline-block; }
-  /* line 104, ../../scss/styles.scss */
+  /* line 158, ../../scss/styles.scss */
   .app-header a {
     margin: 5px 0 0 10px; }
-  /* line 107, ../../scss/styles.scss */
+  /* line 161, ../../scss/styles.scss */
   .app-header h1 {
     text-align: left;
     margin: 9px 0 0 20px;
@@ -378,36 +383,33 @@ body {
     line-height: 1.1;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
-/* line 118, ../../scss/styles.scss */
+/* line 172, ../../scss/styles.scss */
 .app-container {
   margin: 0;
   height: 100%;
   -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
   transition-property: transform;
   -webkit-transition-duration: 0s;
-  -moz-transition-duration: 0s;
   transition-duration: 0s;
   -webkit-transition-timing-function: ease-in-out;
-  -moz-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
 /*
  * App home screen styles...
  */
-/* line 143, ../../scss/styles.scss */
+/* line 197, ../../scss/styles.scss */
 .drag-functionality-area {
   position: absolute;
   width: 100%;
   height: 100%;
   padding: 25px; }
-  /* line 150, ../../scss/styles.scss */
+  /* line 204, ../../scss/styles.scss */
   .drag-functionality-area > * {
     margin: 0;
     font-family: 'Vollkorn', serif;
     font-weight: 400;
     color: white; }
-  /* line 157, ../../scss/styles.scss */
+  /* line 211, ../../scss/styles.scss */
   .drag-functionality-area .cancel {
     position: absolute;
     padding: 0 15px;
@@ -418,67 +420,61 @@ body {
     text-transform: lowercase;
     cursor: pointer;
     display: none; }
-  /* line 169, ../../scss/styles.scss */
+  /* line 223, ../../scss/styles.scss */
   .drag-functionality-area h2 {
     font-family: "Roboto", san-serif;
     font-size: 13px;
     font-weight: 300; }
-    /* line 175, ../../scss/styles.scss */
+    /* line 229, ../../scss/styles.scss */
     .drag-functionality-area h2 strong:before {
       content: "Pull down "; }
-  /* line 180, ../../scss/styles.scss */
+  /* line 234, ../../scss/styles.scss */
   .drag-functionality-area h1 {
     font-size: 24px;
     text-align: center;
     display: none; }
 
-/* line 187, ../../scss/styles.scss */
+/* line 241, ../../scss/styles.scss */
 #pull-down-area {
   top: 0;
   left: 0;
-  background: #1c1c1c;
+  background: #262626;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-  /* line 194, ../../scss/styles.scss */
+  /* line 248, ../../scss/styles.scss */
   #pull-down-area:before {
     content: "";
     width: 0;
     height: 7px;
     position: absolute;
-    background: #5e5e5e;
+    background: #9f9f9f;
     top: 0;
     left: 0;
     -webkit-transition-property: width, opacity;
-    -moz-transition-property: width, opacity;
     transition-property: width, opacity;
     -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
     -webkit-transition-delay: 0;
-    -moz-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out; }
-  /* line 209, ../../scss/styles.scss */
+  /* line 263, ../../scss/styles.scss */
   #pull-down-area .cancel {
     top: 13px;
     right: 13px;
     background: #2e2e2e;
     color: rgba(255, 255, 255, 0.7); }
-  /* line 215, ../../scss/styles.scss */
+  /* line 269, ../../scss/styles.scss */
   #pull-down-area h2 {
-    color: #757575; }
-    /* line 218, ../../scss/styles.scss */
+    color: #858585; }
+    /* line 272, ../../scss/styles.scss */
     #pull-down-area h2:after {
       content: "to receive cards"; }
-  /* line 222, ../../scss/styles.scss */
+  /* line 276, ../../scss/styles.scss */
   #pull-down-area h1 {
     margin: 56px 0 0 0; }
-    /* line 225, ../../scss/styles.scss */
+    /* line 279, ../../scss/styles.scss */
     #pull-down-area h1:before {
       content: "";
       display: inline-block;
@@ -488,195 +484,166 @@ body {
       border-radius: 20px;
       margin: -9px 28px 0 0;
       box-shadow: inset 0 0 0 4px white; }
-  /* line 238, ../../scss/styles.scss */
+  /* line 292, ../../scss/styles.scss */
   #pull-down-area[data-percent="100"]:before {
     transition-delay: 0, .5s;
     opacity: 0; }
-  /* line 243, ../../scss/styles.scss */
+  /* line 297, ../../scss/styles.scss */
   #pull-down-area[data-percent="100"] h2 strong:before {
     content: "Release "; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="0"]:before {
     width: 0%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="10"]:before {
     width: 10%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="20"]:before {
     width: 20%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="30"]:before {
     width: 30%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="40"]:before {
     width: 40%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="50"]:before {
     width: 50%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="60"]:before {
     width: 60%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="70"]:before {
     width: 70%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="80"]:before {
     width: 80%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="90"]:before {
     width: 90%; }
-  /* line 253, ../../scss/styles.scss */
+  /* line 307, ../../scss/styles.scss */
   #pull-down-area[data-percent="100"]:before {
     width: 100%; }
 
-/* line 260, ../../scss/styles.scss */
+/* line 314, ../../scss/styles.scss */
 #scroller {
   height: 100%;
   position: relative; }
-  /* line 265, ../../scss/styles.scss */
+  /* line 319, ../../scss/styles.scss */
+  #scroller .stacker-cntnr {
+    height: 100%; }
+  /* line 323, ../../scss/styles.scss */
   #scroller article {
     position: absolute;
     top: 0;
-    width: 150px;
-    height: calc(33.3333% - 1.5px);
+    width: 140px;
     background: white;
-    margin: 0 1px 1px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1px solid #262626;
+    border-right: 1px solid #262626;
+    height: calc(33.3333% - .2px);
     -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
     transition-property: transform;
     -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
     -webkit-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(0) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0s;
-      -moz-transition-duration: 0s;
       transition-duration: 0s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(1) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.03s;
-      -moz-transition-duration: 0.03s;
       transition-duration: 0.03s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(2) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.06s;
-      -moz-transition-duration: 0.06s;
       transition-duration: 0.06s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(3) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.09s;
-      -moz-transition-duration: 0.09s;
       transition-duration: 0.09s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(4) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.12s;
-      -moz-transition-duration: 0.12s;
       transition-duration: 0.12s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(5) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.15s;
-      -moz-transition-duration: 0.15s;
       transition-duration: 0.15s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(6) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.18s;
-      -moz-transition-duration: 0.18s;
       transition-duration: 0.18s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(7) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.21s;
-      -moz-transition-duration: 0.21s;
       transition-duration: 0.21s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(8) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.24s;
-      -moz-transition-duration: 0.24s;
       transition-duration: 0.24s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(9) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.27s;
-      -moz-transition-duration: 0.27s;
       transition-duration: 0.27s; }
-    /* line 280, ../../scss/styles.scss */
+    /* line 349, ../../scss/styles.scss */
     #scroller article:nth-child(10) {
+      z-index: 2;
+      -webkit-transition-delay: 0;
+      transition-delay: 0;
       -webkit-transition-duration: 0.3s;
-      -moz-transition-duration: 0.3s;
       transition-duration: 0.3s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(11) {
-      -webkit-transition-duration: 0.33s;
-      -moz-transition-duration: 0.33s;
-      transition-duration: 0.33s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(12) {
-      -webkit-transition-duration: 0.36s;
-      -moz-transition-duration: 0.36s;
-      transition-duration: 0.36s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(13) {
-      -webkit-transition-duration: 0.39s;
-      -moz-transition-duration: 0.39s;
-      transition-duration: 0.39s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(14) {
-      -webkit-transition-duration: 0.42s;
-      -moz-transition-duration: 0.42s;
-      transition-duration: 0.42s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(15) {
-      -webkit-transition-duration: 0.45s;
-      -moz-transition-duration: 0.45s;
-      transition-duration: 0.45s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(16) {
-      -webkit-transition-duration: 0.48s;
-      -moz-transition-duration: 0.48s;
-      transition-duration: 0.48s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(17) {
-      -webkit-transition-duration: 0.51s;
-      -moz-transition-duration: 0.51s;
-      transition-duration: 0.51s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(18) {
-      -webkit-transition-duration: 0.54s;
-      -moz-transition-duration: 0.54s;
-      transition-duration: 0.54s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(19) {
-      -webkit-transition-duration: 0.57s;
-      -moz-transition-duration: 0.57s;
-      transition-duration: 0.57s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(20) {
-      -webkit-transition-duration: 0.6s;
-      -moz-transition-duration: 0.6s;
-      transition-duration: 0.6s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(21) {
-      -webkit-transition-duration: 0.63s;
-      -moz-transition-duration: 0.63s;
-      transition-duration: 0.63s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(22) {
-      -webkit-transition-duration: 0.66s;
-      -moz-transition-duration: 0.66s;
-      transition-duration: 0.66s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(23) {
-      -webkit-transition-duration: 0.69s;
-      -moz-transition-duration: 0.69s;
-      transition-duration: 0.69s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(24) {
-      -webkit-transition-duration: 0.72s;
-      -moz-transition-duration: 0.72s;
-      transition-duration: 0.72s; }
-    /* line 280, ../../scss/styles.scss */
-    #scroller article:nth-child(25) {
-      -webkit-transition-duration: 0.75s;
-      -moz-transition-duration: 0.75s;
-      transition-duration: 0.75s; }
+    /* line 356, ../../scss/styles.scss */
+    #scroller article h3 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 25px 15px 15px;
+      color: white;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.1;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+      background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(0, 0, 0, 0.35)), color-stop(100%, rgba(0, 0, 0, 0)));
+      background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+      background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%); }
