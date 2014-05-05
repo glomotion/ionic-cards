@@ -19,10 +19,12 @@ angular.module('cards-app', ['ionic', 'cards-app.directives', 'cards-app.control
         // Ionic uses AngularUI Router which uses the concept of states
         // Learn more here: https://github.com/angular-ui/ui-router
         // Set up the various states which the app can be in.
-        // Each state's controller can be found in controllers.js
+        // Each state's controller can be found in the controllers defined below
 
         $stateProvider
             
+            // (Each tab has its very own nav history stack)
+
             // Entry State
             .state('entry', {
                 url: '/',
@@ -48,7 +50,6 @@ angular.module('cards-app', ['ionic', 'cards-app.directives', 'cards-app.control
                 }
             })
 
-            // Each tab has its own nav history stack:
             .state('app.cards', {
                 url: '/cards',
                 views: {
@@ -88,17 +89,14 @@ angular.module('cards-app.controllers', [])
     .controller('CardsController', function($scope, Cards) {
         
         $scope.cards = Cards.all();
+        $scope.stackerControl = {};
+        $scope.pulldownControl = {};
 
         $scope.$on('ngRepeatFinished', function() {
-            
-            //  @TODO:
-            //  these should really be called as directives, but for now 
-            //  we're just innit'ing the damn things as soon as the dom is ready...
-            //  (calling directives after ng-repeat complete's is a little trickier than first expected ...)
-            
-            $('.stacker-cntnr article').stacker(); 
-            var pulldown = new PullDown($('.app-container'), $('#pull-down-area'));
 
+            $scope.stackerControl.init();
+            $scope.pulldownControl.init();
+            
         });
 
     })
@@ -117,26 +115,35 @@ angular.module('cards-app.controllers', [])
 
 angular.module('cards-app.directives', [])
     
+    .directive('stacker', function() {
+        return {
+            restrict: 'E',
+            scope: {
+                control: '='
+            },
+            link: function(scope, element, attrs) {
+                scope.internalControl = scope.control || {};
+                scope.internalControl.init = function() {
+                    $($(element).find('article')).stacker();
+                }
+            }
+        }
+    })
 
-    // These directives are disabled for the moment...
-    // .directive('stacker', function() {
-    //     return {
-    //         restrict: 'A',
-    //         link: function(scope, element, attrs) {  
-    //             // console.log($(element).find('article')); 
-    //             // $($(element).find('article')).stacker(); 
-    //         }
-    //     }
-    // })
-
-    // .directive('pulldown', function() {
-    //     return {
-    //         restrict: 'A',
-    //         link: function(scope, element, attrs) { 
-    //             // var pulldown = new PullDown($(element).find('.app-container'), $(element).find('#pull-down-area'));
-    //         }   
-    //     };
-    // })
+    .directive('pulldown', function() {
+        return {
+            restrict: 'E',
+            scope: {
+                control: '='
+            },
+            link: function(scope, element, attrs) {
+                scope.internalControl = scope.control || {};
+                scope.internalControl.init = function() {
+                    var pulldown = new PullDown($(element).find('.app-container'), $(element).find('#pull-down-area'));
+                }
+            }
+        }
+    })
 
     .directive('onFinishRender', function ($timeout) {
         return {

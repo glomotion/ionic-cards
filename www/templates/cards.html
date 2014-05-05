@@ -6,7 +6,7 @@
 -->
 
 <ion-view title="Cards">
-    <pulldown>
+    <pulldown control="pulldownControl">
         <hgroup class="drag-functionality-area" id="pull-down-area">
             <h4 class="cancel">cancel</h4>
             <h2><strong></strong></h2>
@@ -19,7 +19,7 @@
         </header>
         <ion-scroll direction="x" scrollbar-x="false" >
             <div id="scroller">
-                <stacker>
+                <stacker control="stackerControl">
                     <div class="stacker-cntnr">
                         <article style="background-image: url({{card.thumbUrl}})" ng-repeat="card in cards" on-finish-render>
                             <a href="#/app/cards/{{card.id}}">
