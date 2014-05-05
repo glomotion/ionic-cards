@@ -115,25 +115,27 @@ angular.module('cards-app.controllers', [])
 
 
 angular.module('cards-app.directives', [])
+    
 
-    .directive('stacker', function() {
-        return {
-            restrict: 'A',
-            link: function(scope, element, attrs) {  
-                // console.log($(element).find('article')); 
-                // $($(element).find('article')).stacker(); 
-            }
-        }
-    })
+    // These directives are disabled for the moment...
+    // .directive('stacker', function() {
+    //     return {
+    //         restrict: 'A',
+    //         link: function(scope, element, attrs) {  
+    //             // console.log($(element).find('article')); 
+    //             // $($(element).find('article')).stacker(); 
+    //         }
+    //     }
+    // })
 
-    .directive('pulldown', function() {
-        return {
-            restrict: 'A',
-            link: function(scope, element, attrs) { 
-                // var pulldown = new PullDown($(element).find('.app-container'), $(element).find('#pull-down-area'));
-            }   
-        };
-    })
+    // .directive('pulldown', function() {
+    //     return {
+    //         restrict: 'A',
+    //         link: function(scope, element, attrs) { 
+    //             // var pulldown = new PullDown($(element).find('.app-container'), $(element).find('#pull-down-area'));
+    //         }   
+    //     };
+    // })
 
     .directive('onFinishRender', function ($timeout) {
         return {
