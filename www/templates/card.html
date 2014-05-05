@@ -1,14 +1,30 @@
 <!-- 
 
     This view shows card's detail page. 
-    You should be able to swipe left and right to view other cards while in this mode...
+    You should be able to swipe left and right to view other cards while in this mode... (ion-slide-box)
+    Each card consists of a front face and a back face.
 
 -->
 
 <ion-view title="Details">
+
+	<a href="#/app/cards">back btn</a>
     <h1>Details view</h1>
     
-    <h3>{{card.title}}</h3>
-    <img src="{{card.imgUrl}}" alt="moo">
+	<ion-slide-box>
+		<ion-slide>
+			<div class="box blue">
+				<h3>{{card.title}}</h3>
+				<img src="{{card.imgUrl}}" alt="moo">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box yellow"><h1>YELLOW</h1></div>
+		</ion-slide>
+		<ion-slide on-slide-changed="slideHasChanged(index)">
+			<div class="box pink"><h1>PINK</h1></div>
+		</ion-slide>
+	</ion-slide-box>
+
 </ion-view>
 
