@@ -93,6 +93,7 @@ angular.module('cards-app.controllers', [])
             //  @TODO:
             //  these should really be called as directives, but for now 
             //  we're just innit'ing the damn things as soon as the dom is ready...
+            //  (calling directives after ng-repeat complete's is a little trickier than first expected ...)
             
             $('.stacker-cntnr article').stacker(); 
             var pulldown = new PullDown($('.app-container'), $('#pull-down-area'));
