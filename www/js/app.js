@@ -4,6 +4,7 @@
 // 'cards-app' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 angular.module('cards-app', ['ionic', 'cards-app.directives', 'cards-app.controllers', 'cards-app.services'])
+    
     .run(function($ionicPlatform) {
         $ionicPlatform.ready(function() {
             if(window.StatusBar) {
