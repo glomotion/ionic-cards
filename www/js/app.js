@@ -68,8 +68,6 @@ angular.module('cards-app', ['ionic', 'cards-app.directives', 'cards-app.control
                 }
             })
 
-            
-
         ;
 
         // if none of the above states are matched, use this as the fallback
@@ -117,7 +115,7 @@ angular.module('cards-app.controllers', [])
 
 angular.module('cards-app.directives', [])
 
-    .directive('stacker', function($timeout) {
+    .directive('stacker', function() {
         return {
             restrict: 'A',
             link: function(scope, element, attrs) {  
