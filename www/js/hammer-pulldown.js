@@ -4,8 +4,8 @@
  * 
  * Author: Tim Paul
  * 
- * @param element: the element that has the overscroll (that we also setup the hammer event listeners on)
- * @param pullDownElement: the dom node containing the pull to refresh content
+ * @param element: the element that has the overscroll applied (that we also setup the hammer event listeners on)
+ * @param pullDownElement: the element's sibling DOM node containing the pull to refresh content
  *
  */
 
@@ -25,9 +25,9 @@ function PullDown(element, pullDownElement) {
     var THROTTLE = 50;
 
     // create the JQ dom objects that we'll be operating on
-    var $element = element;
-    var $pulldown = pullDownElement;
-    var $container = element.closest('body');
+    var $element = $(element);
+    var $pulldown = $(pullDownElement);
+    var $container = $element.closest('body');
     
     /**
      * initialise
