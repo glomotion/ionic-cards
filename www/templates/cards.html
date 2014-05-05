@@ -22,7 +22,9 @@
                 <stacker>
                     <div class="stacker-cntnr">
                         <article style="background-image: url({{card.imgUrl}})" ng-repeat="card in cards" on-finish-render>
-                            <h3>{{card.title}}</h3>
+                            <a href="#/app/cards/{{card.id}}">
+                                <h3>{{card.title}}</h3>
+                            </a>
                         </article>
                     </div>
                 </stacker>

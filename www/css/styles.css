@@ -632,6 +632,10 @@ body {
       -webkit-transition-duration: 0.3s;
       transition-duration: 0.3s; }
     /* line 356, ../../scss/styles.scss */
+    #scroller article a {
+      display: block;
+      height: 100%; }
+    /* line 361, ../../scss/styles.scss */
     #scroller article h3 {
       position: absolute;
       bottom: 0;
