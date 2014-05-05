@@ -3,4 +3,6 @@ var rAF = window.requestAnimationFrame  ||
     window.mozRequestAnimationFrame     ||
     window.oRequestAnimationFrame       ||
     window.msRequestAnimationFrame      ||
-    function (callback) { window.setTimeout(callback, 1000 / 60); };
+    function (callback) { 
+    	window.setTimeout(callback, 1000 / 60); 
+    };
